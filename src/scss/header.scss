@@ -75,6 +75,7 @@
     text-align: center;
 
     .app-header {
+      font-family: "Montserrat";
       font-weight: 700;
       font-size: 48px;
       color: #fff;
@@ -82,6 +83,7 @@
     }
 
     .fork-app-text {
+      font-family: "Montserrat";
       font-size: 18px;
       color: $main-color;
       margin-top: 19px;
@@ -89,6 +91,7 @@
     }
 
     .version-text {
+      font-family: "Montserrat";
       font-size: 14px;
       color: #848e97;
       margin-top: 14px;
@@ -322,7 +325,7 @@
 }
 .is-active {
   .toggle:nth-child(2) {
-    width: unset;
+    opacity: 0;
   }
 
   .toggle:nth-child(1) {
